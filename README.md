@@ -1,4 +1,4 @@
-# tipped
+# TiPPED
 My First iOS Application
 
 # Pre-work - TiPPED
@@ -7,7 +7,7 @@ TiPPED is a tip calculator application for iOS.
 
 Submitted by: Ejay Legaspi
 
-Time spent: 6 hours spent in total
+Time spent: 5 hours spent in total
 
 ## User Stories
 
@@ -20,7 +20,7 @@ The following **optional** features are implemented:
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [X] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/JWmEG0m' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -40,11 +40,11 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1**: "What are your reactions to the iOS app development platform so far? How would you describe outlets and actions to another developer? Bonus: any idea how they are being implemented under the hood? (It might give you some ideas if you right-click on the Storyboard and click Open As->Source Code")
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** So far, it's interesting. It seems easy to catch up with after just watching the video and the walkthrough. I was able to do things I would like and finally created my first iOS app! The outlets and actions basically connects your UI to the source code so you can dynamically do whatever you want on the UI.
 
 Question 2: "Swift uses [Automatic Reference Counting](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html#//apple_ref/doc/uid/TP40014097-CH20-ID49) (ARC), which is not a garbage collector, to manage memory. Can you explain how you can get a strong reference cycle for closures? (There's a section explaining this concept in the link, how would you summarize as simply as possible?)"
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** ARC automatically tracks any instances as a candidate for deallocation by looking in their reference counts to manage memory.
 
 
 ## License
