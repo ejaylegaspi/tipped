@@ -50,6 +50,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // tbBill.delegate = self
+        tbBill.becomeFirstResponder()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
